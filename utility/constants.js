@@ -2,7 +2,10 @@
 const user_power = ['Super Admin', 'Admin', 'Manager', 'User'];
 
 //allower origin
-const whitelist = ["http://localhost:3000", "manage-loan.netlify.app"];
+const whitelist = [
+  "http://localhost:3000",
+  "https://manage-loan.netlify.app",
+];
 
 //routes requiring authorization
 const auth_route = [
